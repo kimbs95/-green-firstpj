@@ -1,0 +1,273 @@
+/* 메인 콘텐츠 */
+section#main {
+    width: 990px;
+    height: 520px;
+    margin: auto;
+    /* 추가 */
+    clear: both;
+}
+
+/* 좌측 카테고리 + 메인 이미지 + 공지사항/주간 이벤트 */
+section#cat1 {
+    width: 215px;
+    float: left;
+    margin-top: 80px;
+    font-weight: bold;
+    background-color:ghostwhite;
+
+}
+section#cat1:hover{
+    color: red;
+}
+
+
+section#cat1 #cat_title {
+    padding: 12px;
+    background-color: #96c11f;
+    color: #ffffff;
+    text-align: center;
+}
+
+section#cat1 li {
+    color: #666666;
+    padding: 7px 0 7px 0;
+    text-align: center;
+}
+section#cat1 li a:hover{
+    color: red;
+}
+section#cat2 {
+    float: left;
+    width: 480px;
+    height: 430px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+section#cat2 img {
+    width: 100%;
+
+
+}
+
+section#cat3 {
+    width: 236px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+section#cat3 #latest_notice {
+    width: 239px;
+    height: 161px;
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+}
+
+section#cat3 #latest_notice ul {
+    margin-top: 50px;
+    /* padding: 42px 0 0 30px; */
+    color: #96c11f;
+    font-weight: bold;
+    list-style-image: url();
+    /*이미지 추가*/
+    border: 2px solid gray;
+    background: white;
+}
+section#cat3 #latest_notice ul p{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+}
+section#cat3 #latest_notice ul li {
+    list-style: circle ;
+    color: black;
+    margin-bottom: 2px;
+    list-style: inside;
+    padding-left: 10px;
+}
+section#cat3 #latest_notice ul li:first-child{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+section#cat3 #latest_notice ul li:last-child{
+    padding-bottom: 10px;
+}
+
+section#cat3 #week_event {
+    border: 2px solid gray;
+    width: 239px;
+    height: 240px;
+    margin-top: 20px;
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+}
+section#cat3 #week_event h3{
+    color: #96c11f;    
+    border-bottom: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+section#cat3 #week_event span {
+    padding-left: 5px;
+    font-weight: 600;
+    
+}
+section#cat3 #week_event span span{
+    color: #96c11f;
+    font-weight: bold;
+}
+
+section#cat3 #week_event img {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 80%;
+    height: 60%;
+    border: 1px solid gray;
+    
+}
+
+/*생략*/
+/*스페셜 숍*/
+.class1{
+    width: 1000px;
+    height: 400px;
+}
+section#special_shop {
+    /* width: 592px; */
+    width: 500px;
+    height: 389px;
+    margin-top: 20px;
+    float: left;
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+}
+
+section#special_shop ul {
+    /* margin: 60px 0 0 25px; */
+    /* width: 50%; */
+    /* display: inline-flex; */
+    border: 2px solid gray;
+    padding: 10px;
+    width: 500px;
+    height: 350px;
+}
+section#special_shop ul h3{
+    color: #96c11f;
+    font-weight: bold;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+section#special_shop li {
+    display: inline-block;
+    margin-left: 40px;
+    width: 40%;
+    height: 10%;
+    /* padding: 25px; */
+}
+
+section#special_shop img {
+    /* background: green; */
+    /* padding: 20px; */
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 300px;
+    
+}
+
+section#special_banner {
+    float: left;
+    width: 450px;
+    height: 373px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid #000;
+    /* margin: 19px 0 0 5px; */
+}
+
+section#special_banner div {
+    width: 450px;
+    height: 100px;
+    margin-top: 10px;
+    background: white;
+}
+
+/*스페셜 숍 우측의 배너 3개*/
+section#special_banner #banner1 {
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+    
+}
+section#special_banner #banner1 ul{
+    /* width: 300px; */
+}
+
+section#special_banner #banner1 img{
+    width: 100px;
+    float: right;
+    border: 1px solid #000;
+}
+
+section#special_banner #banner2 {
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+}
+section#special_banner #banner2 img{
+    width: 100px;
+    float: right;
+    border: 1px solid #000;
+}
+section#special_banner #banner3 {
+    background-image: url();
+    /*이미지 추가*/
+    background-repeat: no-repeat;
+}
+section#special_banner #banner3 img{
+    width: 100px;
+    /* background: green; */
+    display: inline;
+    float: right;
+    border: 1px solid #000;
+}
+section#special_banner ul {
+    /* padding: 6px 0 0 132px; */
+    display: inline;
+}
+section#special_banner  h4{
+    color: green;
+    width: 50px;
+    margin: 0;
+    display: inline;
+}
+section#special_banner ul p{
+    font-weight: bold;
+    display: inline;
+    width: 200px;
+    margin: 0;
+
+}
+section#special_banner ul p span{
+    color: green;
+
+}
+section#special_banner li {
+    display: inline;
+}
+section#special_banner li img{
+    width: 100%;
+    height: 100%;
+}
